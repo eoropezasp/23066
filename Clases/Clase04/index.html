@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="ingresar">
+        <fieldset>
+            <legend>Datos del alumno</legend>
+
+            <label for="alumnoNombre">Nombre:</label>
+            <input type="text" id="alumnoNombre" name="alumnoNombre" placeholder="Ej Juan" maxlength="5" required>
+            <!--maxlength define el maximo de caracteres-->
+            <!--minlength define el minimo de caracteres-->
+            <!--placeholder muestra un ejemplo sombreado sobre el input-->
+            <!--required es requeriado para continuar-->
+
+            <br><br>
+            <label for="alumnoApellido">Apellido:</label>
+            <input type="text" id="alumnoApellido" name="alumnoApellido" placeholder="Ej Alvarez" minlength="2"
+                required>
+            <br>
+            <br>
+            <label for="fnac">Feche de nacimiento:</label>
+            <input type="datetime-local" id="fnac" name="fnac" required>
+            <br>
+            <br>
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" min="18" max="120" required placeholder="edad">
+            <br>
+            <br>
+            <label for="edad">Edad:</label>
+            <input type="number" min="18" max="120" readonly value="17">
+            <br>
+            <br>
+            <label for="edad">Edad:</label>
+            <input type="number" min="18" max="120" value="17">
+            <br>
+            <br>
+            <label for="edad">Edad:</label>
+            <input type="number" min="18" max="120" value="17" disabled>
+            <br>
+            <br>
+            <label for="pass">Password:</label>
+            <input type="password">
+            <br>
+            <br>
+            <label for="">Color:</label>
+            <input type="color">
+            <br>
+            <br>
+            <label for="">Archivo:</label>
+            <input type="file">
+            <br>
+            <br>
+            <label for="">Oculto:</label>
+            <input type="hidden">
+            <br>
+            <br>
+            <label for="">Direccion:</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+            <label for="lenguajes">Lenguajes</label>
+            <select name="lenguajes" id="lenguajes">
+                <option value="1">java</option>
+                <option value="2">js</option>
+                <option value="3">php</option>
+                <option value="4">python</option>
+                <option value="5">net</option>
+            </select>
+
+
+
+
+            <label for=""></label>
+
+        </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+
+</html>

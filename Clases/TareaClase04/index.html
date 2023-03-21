@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="ingresar">
+        <fieldset>
+            <legend>Datos de Alumno</legend>
+            <label for="nomb">Nombre:</label>
+            <input type="text" id="nomb" name="nomb" required>
+            <br>
+            <br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+            <br>
+            <br>
+            <label for="dir">Direccion:</label>
+            <input type="text" id="dir" name="dir" required>
+            <br>
+            <br>
+            <label for="localidad">Localidad:</label>
+            <input type="text" id="localidad" name="localidad" required>
+            <br>
+            <br>
+            <label for="tel">Telefono:</label>
+            <input type="number" id="tel" name="tel" minlength="8" maxlength="10" required>
+            <br>
+            <br>
+            <label for="mail">E-mail</label>
+            <input type="email" id="mail" name="mail" required>
+            <br>
+            <br>
+            <label for="dni">DNI</label>
+            <input type="number" id="dni" name="dni" minlength="6" maxlength="8" required>
+            <br>
+            <br>
+
+            <legend>Estado del Alumno</legend>
+            <input type="radio" id="enCurso" name="seleccion" value="En Curso">
+            <label for="enCurso">En Curso</label>
+            <br>
+            <input type="radio" id="ingresante" name="seleccion" value="Ingresante">
+            <label for="ingresante">Ingresante</label>
+            <br>
+            <br>
+            <label for="carrera">Selecione una carrera</label>
+            <select name="carrera" id="carrera">
+                <option value="1">Analista de sistemas</option>
+                <option value="2">Tecnico en Infraestructura</option>
+                <option value="3">Seguridad informatica</option>
+            </select>
+            <br>
+            <br>
+            <label for="carrera">Sede de cursada</label>
+            <select name="carrera" id="carrera">
+                <option value="1">UTN</option>
+                <option value="2">ORT</option>
+                <option value="3">UBA</option>
+            </select>
+
+
+
+        </fieldset>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+
+
+
+
+</body>
+
+</html>
