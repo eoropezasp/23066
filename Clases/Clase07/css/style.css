@@ -29,7 +29,9 @@ main section p{
 header{
     width: 80%;
     height: 150px;
-    background-color: lightgray;
+    /* background-color: lightgray; */
+    /* background-color: #FF0000; */
+    background-color: rgba(255, 0, 0, 1);
     border-radius: 0px 0px 5px 5px;
     margin: auto;
     box-shadow: 2px 5px 5px grey;
