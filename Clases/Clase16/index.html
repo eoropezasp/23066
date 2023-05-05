@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        var nombre = "Nicolas";
+        var edad = 42;
+        var habilitado = true;
+
+        // metodos
+
+        numero1 = parseInt("75.7");
+        console.log("Dato: " + numero1);
+
+        numero1 = parseInt("66 34 65");
+        console.log("Dato: " + numero1);
+
+        numero1 = parseInt("43 años de edad");
+        console.log("Dato: " + numero1);
+
+        numero1 = parseInt("años de edad 43");
+        console.log("Dato: " + numero1);
+
+        numero1 = parseFloat("43");
+        numero1 = numero1 + 40.1
+        console.log("Dato: " + numero1);
+
+        // array
+
+        var notas = [10, 2, 3, 6, 7, 3, 4, 5]
+
+        console.log(notas[7]);
+        console.log(notas[0]);
+        console.log(notas[19]);
+
+        console.log(notas);
+
+        console.table(notas);
+
+
+        var nombres = ["nicolas", "fernando", "carmen"];
+        console.table(nombres);
+
+        //array mixto
+        var deTodo = [true, "nicolas", 12, 145.3];
+        console.table(deTodo);
+
+        //suma de array
+        var suma = notas[0] + notas[6];
+        console.log(suma);
+
+        //tamaño de un array
+        var cantidad = notas.length;
+        console.log("la cantidad de notas es: " + cantidad);
+
+
+    </script>
+
+</body>
+
+</html>
